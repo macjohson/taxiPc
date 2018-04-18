@@ -1,0 +1,49 @@
+.login{
+  width: 100vw;
+  height: 100vh;
+  background:linear-gradient(45deg,#6182FB, #5DC7FC);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  :global{
+    .login-box{
+      width: 320px;
+      background-color: #F2F7FD;
+      border-radius:5px;
+      .top-bar{
+        background-color: #343841;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: white;
+      }
+      .login-form{
+        margin: 20px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 5px;
+        .ant-input-affix-wrapper:last-child{
+          margin-top: 15px;
+        }
+      }
+      .btn{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        .ant-btn{
+          width: 100%;
+        }
+      }
+      .copy{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #343841;
+        font-size: 12px;
+      }
+    }
+  }
+}
